@@ -1,7 +1,7 @@
 Austin Parks Photo Scraper
 ---
 
-This project just searches photos for [https://github.com/open-austin/austingreenmap].
+This project just provides photo urls for [Austin Green Map](https://github.com/open-austin/austingreenmap).
 The photos are sourced from Flickr with a
 [Creative Commons](https://www.flickr.com/creativecommons/) license.
 

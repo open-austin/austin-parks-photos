@@ -15,7 +15,8 @@ request(opts, (err, res, body) => {
   try {
     const parks = JSON.parse(buffer.toString());
     scrape(parks, () => {
-      console.log('all done');
+      console.log('All done!');
+      process.exit();
     });
   } catch (err) {
     console.log(err);
