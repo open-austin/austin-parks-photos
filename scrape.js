@@ -14,9 +14,11 @@ const q = async.queue( (park, callback) => {
     lon: lon,
     safe_search: 1, // safe mode, someone think of the children!
     license: '2',
+    accuracy: 15,
+    radius: 1,
+    radius_units: 'mi',
     per_page: 10,
-    text: 'park',
-    sort: 'interestingness-desc'
+    tags: 'park'
   }, (err, res) => {
     if (err) return callback(err);
 
