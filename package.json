@@ -1,0 +1,25 @@
+{
+  "name": "austin-parks-photo-scraper",
+  "version": "1.0.0",
+  "description": "Scrape photos by public park coordinates in Austin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "clean": "rm -rfv ./images/*"
+  },
+  "keywords": [
+    "austin",
+    "parks",
+    "photo",
+    "flickr",
+    "scraper"
+  ],
+  "author": "Preston Pham",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "flickrapi": "^0.3.35",
+    "request": "^2.60.0"
+  }
+}
