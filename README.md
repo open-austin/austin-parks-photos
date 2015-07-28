@@ -32,6 +32,12 @@ npm run clean
 
 #### Data access
 
-Make XHR requests to the github page.
+Make XHR requests to the github page in the format
+
+```
+http://open-austin.github.io/austin-parks-photos/images/[Park ID].json
+```
+
+Here's Zilker Park's data file: http://open-austin.github.io/austin-parks-photos/images/324.json
 
 Note: the gh-pages branch should only contain the images folder.
