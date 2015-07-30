@@ -41,3 +41,12 @@ http://open-austin.github.io/austin-parks-photos/images/[Park ID].json
 Here's Zilker Park's data file: http://open-austin.github.io/austin-parks-photos/images/324.json
 
 Note: the gh-pages branch should only contain the images folder.
+
+#### License
+
+Released to the public domain under [the Unlicense](http://unlicense.org/) by Open Austin, 2015.
+
+#### Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
