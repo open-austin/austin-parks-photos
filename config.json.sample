@@ -1,0 +1,9 @@
+{
+  "flickr": {
+    "api_key": "<FLICKR KEY>",
+    "secret": "<FLICKR SECRET>"
+  },
+  "parks_href": "https://api.github.com/repos/open-austin/austingreenmap/contents/data/parks.json",
+  "userAgent": "<Github Username for external repo access>",
+  "concurrency": 4
+}
